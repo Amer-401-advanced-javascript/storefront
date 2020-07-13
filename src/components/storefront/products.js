@@ -5,11 +5,19 @@ import { active } from '../../store/categories';
 
 const Products = props => {
     return(
-      <h1>
-          {props.products.products.map ( value => JSON.stringify(value))}fsdfddd
-      </h1>
+      <ul>
+           {props.products.products.map ( value => 
+            <li key = {value.name}>
+                <p>Name: {value.name}</p>
+                <p> Category: {value.category}</p>
+                <p>Price: {value.price} </p>
+                <p>inStock: {value.inStock}</p>
+            </li>
+            )}
+      </ul>
     )
-}
+        }
+         
 
 const mapStateToProps = (state) => ({
     products: state.products

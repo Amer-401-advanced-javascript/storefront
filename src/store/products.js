@@ -17,14 +17,12 @@ export default (state = initialState, action) => {
   
   switch(type){
   case 'ACTIVE':
-  {  let productsValue = state.products;
-    let products = productsValue.filter(value=> {
-      console.log(value.category === payload);
-      
+  {  
+    state = initialState;
+    let productsValue = state.products;
+    let products = productsValue.filter(value=> {      
       return value.category === payload;
-    });
-    console.log(initialState);
-    
+    });    
     return {products};
   }
   default:
