@@ -7,18 +7,18 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/Amer-401-advanced-javascript/storefront/pull/1)
-- [ci/cd](http://xyz.com) (GitHub Actions)
+<!-- - [ci/cd](http://xyz.com) (GitHub Actions)
 - [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [front-end application](http://xyz.com) (when applicable) -->
 
 ### Setup
 
 #### `.env` requirements (where applicable)
 
-i.e.
+<!-- i.e.
 
 - `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+- `MONGODB_URI` - URL to the running mongo instance/db -->
 
 #### How to initialize/run your application (where applicable)
 
@@ -35,3 +35,4 @@ i.e.
 #### UML
 
 Link to an image of the UML for your application and response to events
+* [UML](https://drive.google.com/file/d/1V4WqgKb_9hBKmie6lqcrY9UEFC9sulxr/view?usp=sharing)
