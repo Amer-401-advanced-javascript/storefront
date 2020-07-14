@@ -9,14 +9,10 @@ let initialState = {
 
 
 export default (state = initialState, action) => {
-  let {type, payload} = action;  
-
+  let {type, payload} = action;    
   switch (type) {
   case 'ACTIVE':{
-    let categories = state.categories;
-    let activeCategory = state.activeCategory;
-    activeCategory = payload;
-    return {categories, activeCategory}; 
+    return {...state, activeCategory:payload};
   }
     
   default: 

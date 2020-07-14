@@ -26,11 +26,11 @@ export default (state = initialState, action) => {
     });    
   }
 
-  case 'DECREMENT':
+  case 'ADD_TO_CART':
   {   
     console.log('initi', initialState);
     
-    let e =  state.map( item => {
+    let itemCollection =  state.map( item => {
       if((item.name === payload.name) && (item.inStock > 0)){
         item.inStock--;
         return item;
@@ -38,7 +38,7 @@ export default (state = initialState, action) => {
         return item;
       }
     });
-    return e;
+    return itemCollection;
     
   }
 
@@ -47,11 +47,11 @@ export default (state = initialState, action) => {
   }
 };
 
-export const decrement = (item) => {
+export const addtoCart = (item) => {
   console.log(item,'this the added item');
   
   return {
-    type:'DECREMENT',
+    type:'ADD_TO_CART',
     payload:item,
   };
 };
