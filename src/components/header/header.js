@@ -7,6 +7,7 @@ export default function Header () {
             <h1>
                 Store Front
             </h1>
+            <p>Cart (0)</p>
         </header>
     )
 }

@@ -1,4 +1,4 @@
-# LAB - Class 36
+# LAB - Class 37
 
 ## Project: storefront
 
@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/Amer-401-advanced-javascript/storefront/pull/1)
+- [submission PR](https://github.com/Amer-401-advanced-javascript/storefront/pull/2)
 <!-- - [ci/cd](http://xyz.com) (GitHub Actions)
 - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable) -->

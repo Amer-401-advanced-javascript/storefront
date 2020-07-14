@@ -4,7 +4,7 @@ let initialState = {
     { name: 'food', displayName: 'Food' },
     { name: 'clothing', displayName: 'Clothing' },
   ],
-  activeCategory: 'electronics',
+  activeCategory: '',
 };
 
 
@@ -12,7 +12,6 @@ export default (state = initialState, action) => {
   let {type, payload} = action;  
 
   switch (type) {
-
   case 'ACTIVE':{
     let categories = state.categories;
     let activeCategory = state.activeCategory;
